@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>third</title>
+    <style>
+        #first 
+        {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="first"></div>
+    <button onclick="turn()">Red Color</button>
+    <script>
+        function turn() 
+        {
+            var box = document.getElementById('first');
+            box.style.backgroundColor = 'red';
+        }
+    </script>
+</body>
+</html>
